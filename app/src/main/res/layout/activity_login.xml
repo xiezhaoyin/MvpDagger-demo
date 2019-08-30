@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlt_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/iv_splash"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_395"
+        android:background="@drawable/paula_splash"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="@dimen/dp_170"
+        android:layout_height="@dimen/dp_45"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_107"
+        android:layout_marginBottom="@dimen/dp_52"
+        android:src="@drawable/app_logo" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_info"
+        android:layout_width="@dimen/login_card_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_logo"
+        android:layout_centerHorizontal="true"
+        android:minHeight="@dimen/login_card_height"
+        app:cardCornerRadius="@dimen/login_card_radius"
+        app:cardElevation="@dimen/dp_6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_27"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:paddingLeft="@dimen/dp_25"
+                android:text="账号" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_name"
+                android:layout_width="@dimen/login_et_width"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:hint="门店帐号" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_27"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:paddingLeft="@dimen/dp_25"
+                android:text="密码" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_pwd"
+                android:layout_width="@dimen/login_et_width"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edt_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="门店密码"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:inputType="textPassword" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_17">
+
+                <CheckBox
+                    android:id="@+id/checkbox_pwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:paddingLeft="@dimen/dp_5"
+                    android:paddingTop="@dimen/dp_5"
+                    android:paddingBottom="@dimen/dp_5"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="记住密码" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_login"
+        android:layout_width="@dimen/login_btn_width"
+        android:layout_height="@dimen/login_btn_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_460"
+        android:backgroundTint="@color/colorPrimary"
+        app:cardCornerRadius="@dimen/login_btn_radius"
+        app:cardElevation="@dimen/dp_6">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:textColor="#fff"
+            android:textSize="@dimen/bigger_size"
+            android:text="登录" />
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/textBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_34"
+        android:gravity="center"
+        android:text="版权所属\n收款小精灵" />
+
+</RelativeLayout>
