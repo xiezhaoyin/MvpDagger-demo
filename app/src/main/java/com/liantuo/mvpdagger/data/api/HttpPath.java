@@ -7,4 +7,5 @@ public class HttpPath {
      */
     public static final String LOGIN = "login";
 
+
 }
