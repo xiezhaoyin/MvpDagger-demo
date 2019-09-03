@@ -1,4 +1,4 @@
-package com.liantuo.mvpdagger.data.api;
+package com.liantuo.mvpdagger.data.request;
 
 import com.liantuo.mvpdagger.data.bean.entity.LoginResponse;
 

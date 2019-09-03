@@ -1,4 +1,4 @@
-package com.liantuo.mvpdagger.data.api;
+package com.liantuo.mvpdagger.data.request;
 
 public class HttpPath {
 

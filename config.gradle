@@ -49,6 +49,7 @@ ext {
             "rxlifecycle2-android"     : "com.trello.rxlifecycle2:rxlifecycle-android:${version["rxlifecycle2SdkVersion"]}",
             "rxlifecycle2-components"  : "com.trello.rxlifecycle2:rxlifecycle-components:${version["rxlifecycle2SdkVersion"]}",
             "rxcache2"                 : "com.github.VictorAlbertos.RxCache:runtime:1.8.3-2.x",
+            "jolyglot-gson"            : "com.github.VictorAlbertos.Jolyglot:gson:0.0.4",
             "rxpermissions2"           : "com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar",
             "rxerrorhandler2"          : "me.jessyan:rxerrorhandler:2.1.1",
 
@@ -78,7 +79,7 @@ ext {
             "dagger2-android-support"  : "com.google.dagger:dagger-android-support:${version["dagger2SdkVersion"]}",
             "dagger2-android-processor": "com.google.dagger:dagger-android-processor:${version["dagger2SdkVersion"]}",
             "guava"                    : "com.google.guava:guava:28.1-android",
-//            "javax-annotation"         : "javax.annotation:jsr250-api:1.0",
+            "javax-annotation"         : "javax.annotation:jsr250-api:1.0",
 
             // tool
             "eventbus"                 : "org.greenrobot:eventbus:3.1.1",

@@ -17,7 +17,7 @@ public class MyApplication extends BaseApplication {
 
         appComponent = DaggerAppComponent.builder()
                 .appModule(new AppModule(instance))
-                .httpModule(new HttpModule())
+                .httpModule(new HttpModule(instance))
                 .build();
 
         appComponent.inject(instance);

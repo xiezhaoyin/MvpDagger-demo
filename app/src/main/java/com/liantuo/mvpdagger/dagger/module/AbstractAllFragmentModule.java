@@ -10,7 +10,5 @@ import dagger.Module;
 @Module(subcomponents = BaseFragmentComponent.class)
 public abstract class AbstractAllFragmentModule {
 
-//    @ContributesAndroidInjector(modules = CollectFragmentModule.class)
-//    abstract CollectFragment contributesCollectFragment();
 
 }

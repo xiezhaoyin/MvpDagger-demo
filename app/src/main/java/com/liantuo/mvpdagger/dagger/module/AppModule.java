@@ -1,13 +1,12 @@
 package com.liantuo.mvpdagger.dagger.module;
 
 
-import com.liantuo.baselib.BaseApplication;
 import com.liantuo.mvpdagger.MyApplication;
 import com.liantuo.mvpdagger.data.DataManager;
-import com.liantuo.mvpdagger.data.api.Requests;
-import com.liantuo.mvpdagger.data.api.RequestsImpl;
-import com.liantuo.mvpdagger.data.storage.Caches;
-import com.liantuo.mvpdagger.data.storage.CachesImpl;
+import com.liantuo.mvpdagger.data.request.Requests;
+import com.liantuo.mvpdagger.data.request.RequestsImpl;
+import com.liantuo.mvpdagger.data.cache.Caches;
+import com.liantuo.mvpdagger.data.cache.CachesImpl;
 
 import javax.inject.Singleton;
 
