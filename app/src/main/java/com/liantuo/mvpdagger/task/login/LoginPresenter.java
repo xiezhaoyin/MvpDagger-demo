@@ -7,8 +7,8 @@ import com.liantuo.baselib.network.BaseObserver;
 import com.liantuo.baselib.network.Obj2MapUtil;
 import com.liantuo.baselib.network.OnCallback;
 import com.liantuo.mvpdagger.data.DataManager;
-import com.liantuo.mvpdagger.data.bean.entity.LoginRequest;
-import com.liantuo.mvpdagger.data.bean.entity.LoginResponse;
+import com.liantuo.mvpdagger.data.bean.LoginRequest;
+import com.liantuo.mvpdagger.data.bean.LoginResponse;
 import com.trello.rxlifecycle2.LifecycleProvider;
 
 

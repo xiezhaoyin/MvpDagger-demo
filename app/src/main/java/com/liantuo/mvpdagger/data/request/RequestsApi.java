@@ -1,6 +1,6 @@
 package com.liantuo.mvpdagger.data.request;
 
-import com.liantuo.mvpdagger.data.bean.entity.LoginResponse;
+import com.liantuo.mvpdagger.data.bean.LoginResponse;
 
 import java.util.Map;
 

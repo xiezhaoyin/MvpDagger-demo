@@ -1,7 +1,7 @@
 package com.liantuo.mvpdagger.data;
 
 import com.liantuo.mvpdagger.data.request.Requests;
-import com.liantuo.mvpdagger.data.bean.entity.LoginResponse;
+import com.liantuo.mvpdagger.data.bean.LoginResponse;
 import com.liantuo.mvpdagger.data.cache.Caches;
 
 import java.util.Map;

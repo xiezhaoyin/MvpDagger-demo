@@ -1,4 +1,4 @@
-package com.liantuo.mvpdagger.data.bean.entity;
+package com.liantuo.mvpdagger.data.bean;
 
 public class BaseRequest {
 

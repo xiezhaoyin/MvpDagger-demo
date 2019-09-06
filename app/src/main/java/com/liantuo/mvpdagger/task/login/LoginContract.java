@@ -2,8 +2,8 @@ package com.liantuo.mvpdagger.task.login;
 
 import com.liantuo.baselib.mvp.IBasePresenter;
 import com.liantuo.baselib.mvp.IBaseView;
-import com.liantuo.mvpdagger.data.bean.entity.LoginRequest;
-import com.liantuo.mvpdagger.data.bean.entity.LoginResponse;
+import com.liantuo.mvpdagger.data.bean.LoginRequest;
+import com.liantuo.mvpdagger.data.bean.LoginResponse;
 
 public class LoginContract {
 

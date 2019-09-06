@@ -8,8 +8,8 @@ import android.widget.Button;
 import android.widget.CheckBox;
 
 import com.liantuo.baselib.mvp.BaseActivity;
-import com.liantuo.mvpdagger.data.bean.entity.LoginRequest;
-import com.liantuo.mvpdagger.data.bean.entity.LoginResponse;
+import com.liantuo.mvpdagger.data.bean.LoginRequest;
+import com.liantuo.mvpdagger.data.bean.LoginResponse;
 import com.liantuo.mvpdagger.task.main.MainActivity;
 import com.liantuo.mvpdagger.R;
 import com.liantuo.baselib.util.DialogUtil;
